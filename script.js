@@ -106,3 +106,121 @@ bobeira = bobeira - 1;
 console.log(bobeira);
 --bobeira;
 console.log(bobeira);
+
+// 19 - Tirar a media.
+
+// var alunos = ['antonio', 'marcos', 'argo', 'francisco'];
+// var notas1 = [3.5, 5.3, 4.8, 5.3];
+// var notas2 = [2.0, 9.0, 7.8, 8.0];
+// var notas3 = [7.0, 8.0, 9.0, 6.0];
+// var notas4 = [5.0, 7.0, 8.0, 7.5];
+
+// function media(n1, n2, n3, n4) {
+//   return (n1 + n2 + n3 + n4) / 4;
+// }
+
+// function passou(media) {
+//   if (media > 7) {
+//     return 'Aprovado';
+//   } else {
+//     return 'Reprovou';
+//   }
+// }
+
+// for (var index in alunos) {
+//   var notaA = notas1[index];
+//   var notaB = notas2[index];
+//   var notaC = notas3[index];
+//   var notaD = notas4[index];
+
+//   var m = media(notaA, notaB, notaC, notaD);
+
+//   console.log(
+//     alunos[index] +
+//       ' - ' +
+//       notas1[index] +
+//       ' - ' +
+//       notas2[index] +
+//       ' - ' +
+//       notas3[index] +
+//       ' - ' +
+//       notas4[index] +
+//       ' - ' +
+//       media(notas1[index], notas2[index], notas3[index], notas4[index]) +
+//       ' ' +
+//       passou(m),
+//   );
+// }
+
+// 20 - Objetos
+
+// function calcMedia() {
+//   return (this.notas[0] + this.notas[1]) / 2;
+// }
+
+// var aluno = {
+//   nome: 'Fabricio',
+//   notas: [4.0, 6.0],
+
+//   media: calcMedia,
+// };
+
+// var aluno1 = {
+//   nome: 'Marcos',
+//   notas: [8.0, 6.0],
+
+//   media: calcMedia,
+// };
+
+// console.log(aluno.nome);
+// console.log(aluno.media());
+
+// console.log(aluno1.nome);
+// console.log(aluno1.media());
+
+// 21 - Criar Aluno
+
+// function criarAluno(nome, n1, n2) {
+//   return {
+//     nome: nome,
+//     nota1: n1,
+//     nota2: n2,
+//     media: function () {
+//       return (this.nota1 + this.nota2) / 2;
+//     },
+//   };
+// }
+
+// var turma = [
+//   criarAluno('Igor', 9, 6),
+//   criarAluno('Xã', 4, 6),
+//   criarAluno('Fran', 9, 6),
+// ];
+
+// turma.forEach(function (elemento) {
+//   console.log(elemento);
+// });
+
+// for (var aluno in turma) {
+//   console.log(aluno);
+// }
+
+// 22- Declare uma variável com o seu nome
+var nome = 'Giselly';
+console.log(nome);
+
+// 23- Declare uma variável com a sua idade
+var idade = 40;
+console.log(idade);
+
+// 24- Declare uma variável com a sua comida favorita e não atribua valor
+
+var tacacá;
+console.log(tacacá);
+
+// 22- Atribua valor para sua comida favorita
+var tacacá = 'manjar dos deuses';
+console.log(tacacá);
+// 22- Declare 5 variáveis diferentes sem valores.
+
+var time, professor, paos, endereco, rua;
