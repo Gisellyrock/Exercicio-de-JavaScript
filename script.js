@@ -89,6 +89,13 @@ var modulo4 = b % a;
 console.log(modulo4);
 
 //17 - Faça o incremento de uma variavel.
+var incremento = 5;
+console.log(incremento++); // 5
+console.log(incremento); // 6
+
+var incremento2 = 5;
+console.log(++incremento2); // 6
+console.log(incremento2); // 6
 
 var alegria = 50;
 alegria = alegria + 1;
@@ -224,3 +231,48 @@ console.log(tacacá);
 // 22- Declare 5 variáveis diferentes sem valores.
 
 var time, professor, paos, endereco, rua;
+
+// 23 - declare uma variável contendo uma string
+
+var paixao = 'Londres';
+console.log(typeof paixao);
+
+// 24 - Declare uma variável contendo um numero dentro de uma string.
+
+var dindin = '10';
+console.log(typeof dindin);
+
+// 25 - Declare uma variável com a sua idade
+
+var idade = 40;
+
+// 26 - Declare duas variáveis, uma com seu nome e outro com seu sobrenome e as some.
+var name = 'Giselly';
+var lastName = 'Rock';
+
+var completeName = `${name} ${lastName}`;
+console.log(completeName);
+// 27 - Coloque a segunte frase em uma variável: It's time
+var frase = "It's time";
+console.log(frase);
+
+// 28 - Qual o resultado da seguinte expressão?
+var total = 10 + (5 * 2) / 2 + 20;
+console.log(total);
+
+// 29 - Crie duas expressões que retornem NaN. Soma sempre irá concatenar
+var expressao = total - nome;
+console.log(expressao);
+
+var expressao1 = total / frase;
+console.log(expressao1);
+
+// 30 - Somar a string '200' com o número 50 e retornar 250
+
+// 31 - Incremente o número 5 e retorne o seu valor incrementado
+
+// 32 - Como dividir o peso por 2?
+var numero = '80';
+var unidade = 'kg';
+var peso = numero + unidade; // '80kg'
+var pesoPorDois = peso / 2; // NaN (Not a Number)
