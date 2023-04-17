@@ -269,10 +269,95 @@ console.log(expressao1);
 
 // 30 - Somar a string '200' com o número 50 e retornar 250
 
+var soma = +'200' + 50;
+console.log(soma);
+
 // 31 - Incremente o número 5 e retorne o seu valor incrementado
+var x = 5;
+console.log(++x);
 
 // 32 - Como dividir o peso por 2?
 var numero = '80';
 var unidade = 'kg';
 var peso = numero + unidade; // '80kg'
 var pesoPorDois = peso / 2; // NaN (Not a Number)
+
+numero = +'80';
+
+console.log(numero);
+pesoPorDois = numero / 2;
+console.log(pesoPorDois);
+
+// Falsy
+if (false)
+  if (0)
+    if (NaN)
+      if (null)
+        if (undefined)
+          // ou -0
+          if ('')
+            if (true)
+              if (1)
+                if (' ')
+                  // ou "" ou ``
+
+                  // Truthy
+                  if ('andre')
+                    if (-5)
+                      if ({})
+                        if (!true)
+                          if (!1)
+                            if (!'')
+                              // Truthy
+                              if (!undefined)
+                                // false
+                                if (!!' ')
+                                  // false
+                                  if (!!'')
+                                    // true
+                                    // true
+                                    // true
+                                    // false
+
+                                    10 == '10'; // true
+10 == 10; // true
+10 === '10'; // false
+10 === 10; // true
+10 != 15; // true
+10 != '10'; // false
+10 !== '10'; // true
+
+true && true; // true
+true && false; // false
+false && true; // false
+'Gato' && 'Cão'; // 'Cão'
+5 - 5 && 5 + 5; // 0
+'Gato' && false; // false
+5 >= 5 && 3 < 6; // true
+
+true || true; // true
+true || false; // true
+false || true; // true
+'Gato' || 'Cão'; // 'Gato'
+5 - 5 || 5 + 5; // 10
+'Gato' || false; // Gato
+5 >= 5 || 3 < 6; // true
+
+// Qual valor é retornado na seguinte expressão?
+var expressao = 5 - 2 && 5 - ' ' && 5 - 2;
+
+console.log(expressao);
+
+// O que irá aparecer no console?
+if ('Gato' === 'gato' && 5 > 2) {
+  console.log('Verdadeiro');
+} else {
+  console.log('Falso');
+}
+
+// O que irá aparecer no console?
+if ('Gato' === 'gato' || 5 > 2) {
+  console.log('Gato' && 'Cão');
+} else {
+  console.log('Falso');
+}
