@@ -288,38 +288,6 @@ console.log(numero);
 pesoPorDois = numero / 2;
 console.log(pesoPorDois);
 
-// Falsy
-if (false)
-  if (0)
-    if (NaN)
-      if (null)
-        if (undefined)
-          // ou -0
-          if ('')
-            if (true)
-              if (1)
-                if (' ')
-                  // ou "" ou ``
-
-                  // Truthy
-                  if ('andre')
-                    if (-5)
-                      if ({})
-                        if (!true)
-                          if (!1)
-                            if (!'')
-                              // Truthy
-                              if (!undefined)
-                                // false
-                                if (!!' ')
-                                  // false
-                                  if (!!'')
-                                    // true
-                                    // true
-                                    // true
-                                    // false
-
-                                    10 == '10'; // true
 10 == 10; // true
 10 === '10'; // false
 10 === 10; // true
@@ -361,3 +329,50 @@ if ('Gato' === 'gato' || 5 > 2) {
 } else {
   console.log('Falso');
 }
+// vc precisa desenvolver uma logica forte.
+// 30 - Treine seu cerebro a conversar com o computador. Faça um programa que some dois numeros.
+const num1 = 10;
+const num2 = 20;
+
+const sum = num1 + num2;
+
+console.log(sum);
+
+//31 - Faça um programa que multiplique 2 numeros e o resultado adicione 10.
+
+const mult = num1 * num2 + 10;
+console.log(mult);
+
+// 32 -Faça um programa que encontre a raiz quadrada de um numero, multiplique o resultado por 10 e divida por 33.
+
+const num3 = Math.sqrt(25);
+
+const calc = (num3 * 10) / 33;
+console.log(calc);
+
+// 33 - Faca um programa que inicie com dois nomes, e o programa imprima na tela o seguinte dado: Ola meu nome é (nome1) e minha partner do ninastech e (nome2)
+
+const firstName = 'Giselly';
+const secondName = 'Gabi';
+
+const phrase = `Olá meu nome é ${firstName} e minha partner do ninastech é ${secondName}`;
+console.log(phrase);
+
+// 34 -  Faça um programa que imprima na tela se um nome é igual ao outro nome digitado, ex noah e noah, imprime true e noah e maria imprime false.
+
+const name1 = 'Margarida';
+const name2 = 'Margarida';
+
+const compare = name1 === name2;
+console.log(compare);
+
+// 35 - Faça um programa que imprima na tela se um nome é diferente ao outro nome digitado.
+
+const diferent = name1 !== name2;
+console.log(diferent);
+
+// 36 - Faça um programa que imprima na tela se um nome é igual ao outro nome digitado. Porém os dois nomes devem estar em um Array. ex. const array = ['joao', 'maria'], joao e joao, imprime false, joao e maria, imprime true.
+
+const names = ['Giselly', 'Gabi'];
+const compareOne = names[0] === names[1];
+console.log(compareOne);
