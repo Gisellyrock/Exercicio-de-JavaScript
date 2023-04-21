@@ -1,78 +1,78 @@
-// 1 - Crie um alert no seu browser com a frase Hello World!.  - Introdução.
+// 1 - Faça um programa que apareça um alert no seu browser com a frase Hello World!.  - Introdução.
 
 // alert('Hello World!');
 
-// 2 - Imprima 'Hello World!' no console do browser.
+// 2 - Faça um programa que imprima 'Hello World!' no console do browser.
 console.log('Hello World!');
 
-// 3 - Imprima uma variável que resulte undefined no console do browser. - Variável.
+// 3 - Faça um programa que imprima uma variável que resulte undefined no console do browser. - Variável.
 var giselly;
 console.log(giselly);
 
-// 4- Inicialize uma variável com o valor 'Sou uma programadora'.
+// 4- Faça um programa que inicialize uma variável com o valor 'Sou uma programadora'.
 
 var presente = 'Sou uma programadora';
 console.log(presente);
 
-// 5- Modifique a sua variável atribuindo o valor anterior por "Sou full stack".
+// 5- Faça um programa que modifique a sua variável atribuindo o valor anterior por "Sou full stack".
 
 presente = 'Sou full stack';
 console.log(presente);
 
-// 6 - Atribua uma string a uma variável, depois reatribua com number. - Tipos de Dados.
-var bonitona = 'Sou eu!';
-bonitona = 21;
-console.log(bonitona);
+// 6 - Faça um programa que atribua uma string a uma variável, depois reatribua com number. - Tipos de Dados.
+var linda = 'Sou eu!';
+linda = 21;
+console.log(linda);
 
-// 8 - Atribua a duas variáveis strings e concatene as duas.
+// 8 - Faça um programa que atribua a duas variáveis strings e concatene as duas.
 
 var number1 = '22';
 var number2 = '41';
 
 console.log(number1 + number2);
 
-// 9- Agora some os dois números atribuídos as variáveis.
+// 9- Faça um programa que some os dois números atribuídos as variáveis.
 
 console.log(22 + 41);
 
-// 10- Atribua a uma variável o null.
+// 10- Faça um programa que atribua a uma variável o null.
 
-var safadao = null;
-console.log(safadao);
+var nula = null;
+console.log(nula);
 
-// 11 - Atribua a uma variável um valor boolean. - Operador Lógico.
+// 11 - Faça um programa que atribua a uma variável um valor boolean. - Operador Lógico.
 var matematico = true;
 console.log(matematico);
 
-//7 - Atribua o retorno de uma variável com dus linhas diferentes. - Quebra de Linha
+//7 - Faça um programa que atribua o retorno de uma variável com dus linhas diferentes. - Quebra de Linha
 
-var linda = 'sou mais eu \nnao quero voce!';
-console.log(linda);
+var twoLines = 'sou mais eu \nnao quero voce!';
+console.log(twoLines);
 
-// 12 - Atribua dois números a duas variáveis e coloque o resultado numa terceira variável. - Operação Aritmética.
+// 12 - Faça um programa que atribua dois números a duas variáveis e coloque o resultado numa terceira variável. - Operação Aritmética.
 
-var brad = 10;
-var tom = 20;
+var red = 10;
+var blue = 20;
 
-var bradley = brad + tom;
-console.log(bradley);
+var colors = red + blue;
+console.log(colors);
 
-// 13- Crie outra variável  e diminua do total da anterior.
-var pobreza = 30 - bradley;
+// 13- Faça um programa que diminua do total da anterior.
+var less = 30 - colors;
 
-console.log(pobreza);
-// 14 - Multiplique as variaveis.
+console.log(less);
+// 14 - Faça um programa que multiplique as variaveis.
 
-console.log(brad * bradley);
+console.log(red * blue);
 
-// 15- Crie uma nova variável e divida.
+// 15- Faça um programa que uma nova variável e divida.
 
-var vacilo = brad / tom;
-console.log(vacilo);
+var divide = red / blue;
+console.log(divide);
 
-// 16 - Tire o módulo das variáveis.
+// 16 - Faça um programa que tire o módulo das variáveis.
 
-var modulo = brad % tom;
+var modulo = red % blue;
 console.log(modulo);
 console.log(brad);
 console.log(tom);
@@ -88,7 +88,7 @@ console.log(modulo3);
 var modulo4 = b % a;
 console.log(modulo4);
 
-//17 - Faça o incremento de uma variavel.
+//17 - Faça um programa que incremente a variavel.
 var incremento = 5;
 console.log(incremento++); // 5
 console.log(incremento); // 6
@@ -106,7 +106,7 @@ alegria++;
 
 console.log(alegria);
 
-// 18 - Faça o incremento de uma variavel.
+// 18 - Faça um programa que incremente a variavel.
 
 var bobeira = 4;
 bobeira = bobeira - 1;
@@ -114,169 +114,66 @@ console.log(bobeira);
 --bobeira;
 console.log(bobeira);
 
-// 19 - Tirar a media.
-
-// var alunos = ['antonio', 'marcos', 'argo', 'francisco'];
-// var notas1 = [3.5, 5.3, 4.8, 5.3];
-// var notas2 = [2.0, 9.0, 7.8, 8.0];
-// var notas3 = [7.0, 8.0, 9.0, 6.0];
-// var notas4 = [5.0, 7.0, 8.0, 7.5];
-
-// function media(n1, n2, n3, n4) {
-//   return (n1 + n2 + n3 + n4) / 4;
-// }
-
-// function passou(media) {
-//   if (media > 7) {
-//     return 'Aprovado';
-//   } else {
-//     return 'Reprovou';
-//   }
-// }
-
-// for (var index in alunos) {
-//   var notaA = notas1[index];
-//   var notaB = notas2[index];
-//   var notaC = notas3[index];
-//   var notaD = notas4[index];
-
-//   var m = media(notaA, notaB, notaC, notaD);
-
-//   console.log(
-//     alunos[index] +
-//       ' - ' +
-//       notas1[index] +
-//       ' - ' +
-//       notas2[index] +
-//       ' - ' +
-//       notas3[index] +
-//       ' - ' +
-//       notas4[index] +
-//       ' - ' +
-//       media(notas1[index], notas2[index], notas3[index], notas4[index]) +
-//       ' ' +
-//       passou(m),
-//   );
-// }
-
-// 20 - Objetos
-
-// function calcMedia() {
-//   return (this.notas[0] + this.notas[1]) / 2;
-// }
-
-// var aluno = {
-//   nome: 'Fabricio',
-//   notas: [4.0, 6.0],
-
-//   media: calcMedia,
-// };
-
-// var aluno1 = {
-//   nome: 'Marcos',
-//   notas: [8.0, 6.0],
-
-//   media: calcMedia,
-// };
-
-// console.log(aluno.nome);
-// console.log(aluno.media());
-
-// console.log(aluno1.nome);
-// console.log(aluno1.media());
-
-// 21 - Criar Aluno
-
-// function criarAluno(nome, n1, n2) {
-//   return {
-//     nome: nome,
-//     nota1: n1,
-//     nota2: n2,
-//     media: function () {
-//       return (this.nota1 + this.nota2) / 2;
-//     },
-//   };
-// }
-
-// var turma = [
-//   criarAluno('Igor', 9, 6),
-//   criarAluno('Xã', 4, 6),
-//   criarAluno('Fran', 9, 6),
-// ];
-
-// turma.forEach(function (elemento) {
-//   console.log(elemento);
-// });
-
-// for (var aluno in turma) {
-//   console.log(aluno);
-// }
-
-// 22- Declare uma variável com o seu nome
+// 19- Faça um programa com uma variável com o seu nome
 var nome = 'Giselly';
 console.log(nome);
 
-// 23- Declare uma variável com a sua idade
+// 20- Faça um programa que declare uma variável com a sua idade
 var idade = 40;
 console.log(idade);
 
-// 24- Declare uma variável com a sua comida favorita e não atribua valor
+// 21- Faça um programa que declare uma variável com a sua comida favorita e não atribua valor
 
 var tacacá;
 console.log(tacacá);
 
-// 22- Atribua valor para sua comida favorita
+// 22- Faça um programa que atribua valor para sua comida favorita
 var tacacá = 'manjar dos deuses';
 console.log(tacacá);
-// 22- Declare 5 variáveis diferentes sem valores.
 
-var time, professor, paos, endereco, rua;
+// 23- Faça um programa que declare 5 variáveis diferentes sem valores.
+var time, professor, pais, endereco, rua;
 
-// 23 - declare uma variável contendo uma string
-
+// 24 - Faça um programa que declare uma variável contendo uma string
 var paixao = 'Londres';
 console.log(typeof paixao);
 
-// 24 - Declare uma variável contendo um numero dentro de uma string.
+// 25 - Faça um programa que declare uma variável contendo um numero dentro de uma string.
 
 var dindin = '10';
 console.log(typeof dindin);
 
-// 25 - Declare uma variável com a sua idade
+// 26 - Faça um programa que declare uma variável com a sua idade.
 
 var idade = 40;
 
-// 26 - Declare duas variáveis, uma com seu nome e outro com seu sobrenome e as some.
+// 27 - Faça um programa que declare duas variáveis, uma com seu nome e outro com seu sobrenome e as some.
 var name = 'Giselly';
 var lastName = 'Rock';
 
 var completeName = `${name} ${lastName}`;
 console.log(completeName);
-// 27 - Coloque a segunte frase em uma variável: It's time
+
+// 28 - Faça um programa que coloque a seguinte frase em uma variável: It's time.
 var frase = "It's time";
 console.log(frase);
 
-// 28 - Qual o resultado da seguinte expressão?
-var total = 10 + (5 * 2) / 2 + 20;
-console.log(total);
-
-// 29 - Crie duas expressões que retornem NaN. Soma sempre irá concatenar
+// 29 - Faça um programa que crie duas expressões que retornem NaN.
 var expressao = total - nome;
 console.log(expressao);
 
 var expressao1 = total / frase;
 console.log(expressao1);
 
-// 30 - Somar a string '200' com o número 50 e retornar 250
-
+// 30 - Faça um programa que some a string '200' com o número 50 e retornar 250.
 var soma = +'200' + 50;
 console.log(soma);
 
-// 31 - Incremente o número 5 e retorne o seu valor incrementado
+// 31 - Faça um programa que incremente o número 5 e retorne o seu valor incrementado.
 var x = 5;
 console.log(++x);
 
-// 32 - Como dividir o peso por 2?
+// 32 - Faça um programa que divida o peso por 2?
 var numero = '80';
 var unidade = 'kg';
 var peso = numero + unidade; // '80kg'
@@ -288,49 +185,7 @@ console.log(numero);
 pesoPorDois = numero / 2;
 console.log(pesoPorDois);
 
-10 == 10; // true
-10 === '10'; // false
-10 === 10; // true
-10 != 15; // true
-10 != '10'; // false
-10 !== '10'; // true
-
-true && true; // true
-true && false; // false
-false && true; // false
-'Gato' && 'Cão'; // 'Cão'
-5 - 5 && 5 + 5; // 0
-'Gato' && false; // false
-5 >= 5 && 3 < 6; // true
-
-true || true; // true
-true || false; // true
-false || true; // true
-'Gato' || 'Cão'; // 'Gato'
-5 - 5 || 5 + 5; // 10
-'Gato' || false; // Gato
-5 >= 5 || 3 < 6; // true
-
-// Qual valor é retornado na seguinte expressão?
-var expressao = 5 - 2 && 5 - ' ' && 5 - 2;
-
-console.log(expressao);
-
-// O que irá aparecer no console?
-if ('Gato' === 'gato' && 5 > 2) {
-  console.log('Verdadeiro');
-} else {
-  console.log('Falso');
-}
-
-// O que irá aparecer no console?
-if ('Gato' === 'gato' || 5 > 2) {
-  console.log('Gato' && 'Cão');
-} else {
-  console.log('Falso');
-}
-// vc precisa desenvolver uma logica forte.
-// 30 - Treine seu cerebro a conversar com o computador. Faça um programa que some dois numeros.
+// 33 - Faça um programa que some dois numeros.
 const num1 = 10;
 const num2 = 20;
 
@@ -338,19 +193,17 @@ const sum = num1 + num2;
 
 console.log(sum);
 
-//31 - Faça um programa que multiplique 2 numeros e o resultado adicione 10.
-
+//32 - Faça um programa que multiplique 2 numeros e o resultado adicione 10.
 const mult = num1 * num2 + 10;
 console.log(mult);
 
-// 32 -Faça um programa que encontre a raiz quadrada de um numero, multiplique o resultado por 10 e divida por 33.
-
+// 33 -Faça um programa que encontre a raiz quadrada de um numero, multiplique o resultado por 10 e divida por 33.
 const num3 = Math.sqrt(25);
 
 const calc = (num3 * 10) / 33;
 console.log(calc);
 
-// 33 - Faca um programa que inicie com dois nomes, e o programa imprima na tela o seguinte dado: Ola meu nome é (nome1) e minha partner do ninastech e (nome2)
+// 34 - Faca um programa que inicie com dois nomes, e o programa imprima na tela o seguinte dado: Ola meu nome é (nome1) e minha partner do ninastech e (nome2)
 
 const firstName = 'Giselly';
 const secondName = 'Gabi';
@@ -358,7 +211,7 @@ const secondName = 'Gabi';
 const phrase = `Olá meu nome é ${firstName} e minha partner do ninastech é ${secondName}`;
 console.log(phrase);
 
-// 34 -  Faça um programa que imprima na tela se um nome é igual ao outro nome digitado, ex noah e noah, imprime true e noah e maria imprime false.
+// 35 -  Faça um programa que imprima na tela se um nome é igual ao outro nome digitado, ex noah e noah, imprime true e noah e maria imprime false.
 
 const name1 = 'Margarida';
 const name2 = 'Margarida';
